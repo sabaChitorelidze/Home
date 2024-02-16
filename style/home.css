@@ -7,9 +7,14 @@
     font-family: PoppinsBlack;
     src: url("/fonts/Poppins-Black.ttf");
 }
-@font
 
-* {
+@font-face {
+    font-family: PoppinsBlackItalic;
+    src: url("/fonts/Poppins-BlackItalic.ttf");
+}
+
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -17,6 +22,13 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-image: url("/images/header.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titleStyle {
@@ -59,13 +71,12 @@ body {
 
 .socMedia-container > i {
     padding: 10px;
-    background-color: aliceblue;
     border-radius: 100%;
     cursor: pointer;
 }
 .socMedia-container > i:hover{
     color: white;
-    background-color:aqua;
+    background-color:rgb(30, 124, 124);
 }
 
 .titleStyle {
@@ -73,9 +84,8 @@ body {
 }
 
 .titleStyle :last-child{
-    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: rgb(235, 242, 248);
+    font-family: PoppinsBlackItalic;
 }
 
 
