@@ -118,7 +118,7 @@ header {
 }
 
 .navLinks {
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: 5px;
     display: none;
@@ -145,7 +145,7 @@ header {
 
 .menuIcon {
     display: block;
-    position: absolute;
+    position: fixed;
     left: 15px;
     top: 10px;
     padding: 10px;
@@ -258,7 +258,7 @@ header {
 }
 
 .navLinks {
-    position: absolute;
+    position: fixed;
     top: 85px;
     left: 5px;
     display: none;
@@ -286,7 +286,7 @@ header {
 
 .menuIcon {
     display: block;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 45px;
     padding: 10px;
