@@ -86,7 +86,11 @@ header {
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
+    font-size: 50px;
+    width: 55px;
+    margin: 10px;
 }
+
 .socMedia-container > i:hover{
     color: white;
     background-color:rgb(30, 124, 124);
@@ -142,7 +146,7 @@ header {
 .menuIcon {
     display: block;
     position: absolute;
-    left: 0;
+    left: 15px;
     top: 10px;
     padding: 10px;
     font-size: 40px;
@@ -152,4 +156,145 @@ header {
 
 .menuIcon:hover {
     color: rgb(85, 85, 85);
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+header {
+    background-image: url("/images/headerMobile.jpg");
+    height: 436px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-container {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    
+}
+
+.titleStyle {
+    font-family:PoppinsBlack;
+    font-size: 25px;
+    text-align: center;
+}
+
+.search-container {
+    position: absolute;
+    top: 50px;
+    right: 17%;
+    width: 65%;
+}
+
+
+#searchStyle {
+    font-family: PoppinsLight;
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 10px;
+    padding-left: 35px;
+    background-image:url("/images/magnifying-glass-solid.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10px;
+    border-style: none;
+    outline: none;
+}
+
+
+
+#searchStyle::placeholder {
+    font-size: 10px;
+    font-family: PoppinsLight;
+}
+
+
+.socMedia-container {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    text-align: right;
+}
+
+.socMedia-container > i {
+    display: block;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    width: 15px;
+    margin: 10px;
+}
+
+.socMedia-container > i:hover{
+    color: white;
+    background-color:rgb(30, 124, 124);
+}
+
+.titleStyle {
+    color: rgb(44, 41, 41);
+}
+
+.titleStyle :last-child{
+    color: rgb(235, 242, 248);
+    font-family: PoppinsBlackItalic;
+}
+
+
+.socMediaStyle {
+    width: 50px;
+}
+
+.header-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns:auto auto auto auto auto;
+    gap: 20px;
+}
+
+.navLinks {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    display: none;
+    width: 22%;
+    z-index: 1;
+}
+
+.navLinks > a {
+    font-family: PoppinsBlackItalic;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    padding: 4px;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(253, 196, 189);
+    border: 2px solid rgb(85, 85, 85);
+}
+
+.navLinks > a:hover {
+    background-color: rgb(240, 240, 143);
+    color: black;
+    border: 2px solid;
+}
+
+.menuIcon {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1;
+    color: black;
+}
+
+.menuIcon:hover {
+    color: rgb(85, 85, 85);
+}
 }
