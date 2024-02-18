@@ -13,11 +13,16 @@
     src: url("/fonts/Poppins-BlackItalic.ttf");
 }
 
+*{
+    box-sizing: border-box;
+}
+
 marquee {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 60px;
     padding: 10px;
     font-family: PoppinsLight;
+    text-shadow: 3px 3px 10px;
 }
 
 .marqueeText {
@@ -243,5 +248,31 @@ marquee {
     gap: 20px;
     justify-content: space-between;
     width: 100%;
+}
+
+.capital-container {
+    margin-top: 150px;
+}
+
+.capital {
+    width: 400px;
+    height: 350px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+
+.otherCity {
+    width: 400px;
+    height: 350px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+#centerText {
+    font-size: 60px;
+    text-align: center;
+    font-family: PoppinsLight;
+    text-shadow: 3px 3px 10px;
 }
 
