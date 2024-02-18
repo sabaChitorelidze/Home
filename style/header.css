@@ -127,18 +127,18 @@ header {
 }
 
 .navLinks > a {
-    font-family: PoppinsBlackItalic;
+    font-family: PoppinsBlack;
     text-decoration: none;
-    color: rgb(85, 85, 85);
+    color: white;
     padding: 14px;
     display: block;
     font-weight: bold;
-    background-color: rgb(253, 196, 189);
-    border: 2px solid rgb(85, 85, 85);
+    background-color:rgb(30, 124, 124);
+    border: 1px solid white;
 }
 
 .navLinks > a:hover {
-    background-color: rgb(240, 240, 143);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     color: black;
     border: 2px solid;
 }

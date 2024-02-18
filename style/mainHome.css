@@ -13,12 +13,26 @@
     src: url("/fonts/Poppins-BlackItalic.ttf");
 }
 
+marquee {
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: PoppinsLight;
+}
+
+.marqueeText {
+    padding-right: 100px;
+}
+
+.categoryText {
+    margin-top: 80px;
+}
 
 #categoryText {
-    margin-top: 50px;
+    padding-top: 10px;
     font-family: PoppinsBlackItalic;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
@@ -40,7 +54,7 @@
 #soloText {
     position: absolute;
     top: 50%;
-    left: 35%; 
+    left: 30%; 
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -48,8 +62,13 @@
 }
 
 #soloText:hover {
-    font-weight: bold;
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 20%;
+    font-family: PoppinsBlackItalic;
 }
 
 .mount-container {
@@ -75,7 +94,13 @@
 }
 
 #mountText:hover {
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
 }
 
 .jungal-container {
@@ -101,7 +126,13 @@
 }
 
 #jungalText:hover {
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
 }
 
 .road-container {
@@ -127,7 +158,13 @@
 }
 
 #roadText:hover {
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 15%;
+    font-family: PoppinsBlackItalic;
 }
 
 .Ocean-container {
@@ -153,7 +190,13 @@
 }
 
 #OceanText:hover {
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
 }
 
 .old-container {
@@ -179,7 +222,13 @@
 }
 
 #oldText:hover {
-    color: rgb(190, 27, 27);
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    position: absolute;
+    left: 8%;
+    font-family: PoppinsBlackItalic;
 }
 
 .categoryTour {
