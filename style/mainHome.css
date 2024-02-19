@@ -276,3 +276,267 @@ marquee {
     text-shadow: 3px 3px 10px;
 }
 
+@media only screen and (max-width: 767px) {
+    
+marquee {
+    margin-top: 50px;
+    font-size: 40px;
+    padding: 10px;
+    font-family: PoppinsLight;
+    text-shadow: 3px 3px 10px;
+}
+
+.marqueeText {
+    padding-right: 100px;
+}
+
+.categoryText {
+    margin-top: 80px;
+}
+
+#categoryText {
+    padding-top: 10px;
+    font-family: PoppinsBlackItalic;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.solo-container {
+    position: relative;
+    top: 0;
+}
+
+
+.soloTravel {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+
+#soloText {
+    position: absolute;
+    top: 50%;
+    left: 30%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#soloText:hover {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    font-family: PoppinsBlackItalic;
+}
+
+.mount-container {
+    position: relative;
+    top: 0;
+}
+
+.mountTravel {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+#mountText {
+    position: absolute;
+    top: 50%;
+    left: 23%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#mountText:hover {
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
+}
+
+.jungal-container {
+    position: relative;
+    top: 0;
+}
+
+.jungalTravel {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+#jungalText {
+    position: absolute;
+    top: 50%;
+    left: 23%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#jungalText:hover {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
+}
+
+.road-container {
+    position: relative;
+    top: 0;
+}
+
+.roadTravel {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+#roadText {
+    position: absolute;
+    top: 50%;
+    left: 25%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#roadText:hover {
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 15%;
+    font-family: PoppinsBlackItalic;
+}
+
+.Ocean-container {
+    position: relative;
+    top: 0;
+}
+
+.oceanTravel {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+#OceanText {
+    position: absolute;
+    top: 50%;
+    left: 25%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#OceanText:hover {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 10%;
+    font-family: PoppinsBlackItalic;
+}
+
+.old-container {
+    position: relative;
+    top: 0;
+}
+
+.oldCity {
+    width: 100px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+}
+
+#oldText {
+    position: absolute;
+    top: 50%;
+    left: 20%; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: PoppinsLight;
+}
+
+#oldText:hover {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: absolute;
+    left: 8%;
+    font-family: PoppinsBlackItalic;
+}
+
+.categoryTour {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: none;
+    margin-top: 50px;
+}
+
+.categoryPhoto-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.capital-container {
+    margin-top: 150px;
+}
+
+.capital {
+    width: 200px;
+    height: 150px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+
+.otherCity {
+    width: 200px;
+    height: 150px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+#centerText {
+    font-size: 40px;
+    text-align: center;
+    font-family: PoppinsLight;
+    text-shadow: 3px 3px 10px;
+}
+
+}
+

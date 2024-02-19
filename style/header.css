@@ -218,17 +218,18 @@ header {
     position: absolute;
     top: 36px;
     right: 10px;
-    text-align: right;
+    text-align: center;
 }
 
 .socMedia-container > i {
     display: block;
-    padding: 10px;
-    padding-right: 15px;
+    padding: 0px;
+    padding-right: 0px;
+    padding: 6px ;
     border-radius: 100%;
     cursor: pointer;
     font-size: 20px;
-    width: 15px;
+    width: 40px;
     margin: 10px;
 }
 
@@ -260,27 +261,27 @@ header {
 
 .navLinks {
     position: fixed;
-    top: 85px;
+    top: 80px;
     left: 5px;
     display: none;
-    width: 22%;
+    width: 20%;
     z-index: 1;
 }
 
 .navLinks > a {
-    font-family: PoppinsBlackItalic;
+    font-family: PoppinsBlack;
     text-decoration: none;
-    color: rgb(85, 85, 85);
-    padding: 4px;
+    color: white;
+    padding: 7px;
     display: block;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: bold;
-    background-color: rgb(253, 196, 189);
-    border: 2px solid rgb(85, 85, 85);
+    background-color:rgb(30, 124, 124);
+    border: 1px solid white;
 }
 
 .navLinks > a:hover {
-    background-color: rgb(240, 240, 143);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     color: black;
     border: 2px solid;
 }
@@ -288,7 +289,7 @@ header {
 .menuIcon {
     display: block;
     position: fixed;
-    left: 0px;
+    left: 5px;
     top: 45px;
     padding: 10px;
     font-size: 20px;
