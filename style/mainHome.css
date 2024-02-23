@@ -59,11 +59,15 @@ marquee {
 #soloText {
     position: absolute;
     top: 50%;
-    left: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #soloText:hover {
@@ -72,7 +76,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 
@@ -91,11 +97,15 @@ marquee {
 #mountText {
     position: absolute;
     top: 50%;
-    left: 23%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #mountText:hover {
@@ -104,7 +114,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 
@@ -123,11 +135,15 @@ marquee {
 #jungalText {
     position: absolute;
     top: 50%;
-    left: 23%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #jungalText:hover {
@@ -136,7 +152,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 
@@ -155,11 +173,15 @@ marquee {
 #roadText {
     position: absolute;
     top: 50%;
-    left: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #roadText:hover {
@@ -168,7 +190,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 
@@ -187,11 +211,15 @@ marquee {
 #OceanText {
     position: absolute;
     top: 50%;
-    left: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #OceanText:hover {
@@ -200,7 +228,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 
@@ -219,11 +249,15 @@ marquee {
 #oldText {
     position: absolute;
     top: 50%;
-    left: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: PoppinsLight;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
 }
 
 #oldText:hover {
@@ -232,7 +266,9 @@ marquee {
     -webkit-background-clip: text;
     font-size: 25px;
     position: absolute;
-    left: 8%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: PoppinsBlackItalic;
 }
 

@@ -127,6 +127,8 @@ header {
     width: 10%;
     z-index: 1;
     float:left;
+    animation-name: test;
+    animation-duration: 0.5s;
 }
 
 .navLinks > a {
@@ -138,12 +140,16 @@ header {
     font-weight: bold;
     background-color:rgb(30, 124, 124);
     border: 1px solid white;
+    animation-name: example;
+    animation-duration: 0.5s;
 }
 
 .navLinks > a:hover {
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     color: black;
     border: 2px solid;
+    font-family: PoppinsBlackItalic;
+    transition: 1s;
 }
 
 .menuIcon {
@@ -160,6 +166,14 @@ header {
 .menuIcon:hover {
     color: rgb(85, 85, 85);
 }
+
+
+@keyframes example {
+    from {
+        transform: translateX(-50rem);
+    }
+}
+
 
 
 
