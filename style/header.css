@@ -95,6 +95,7 @@ header {
 .socMedia-container > i:hover{
     color: white;
     background-color:rgb(30, 124, 124);
+    transition: 0.7s;
 }
 
 .titleStyle {
