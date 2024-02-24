@@ -53,6 +53,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 
@@ -92,6 +93,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 #mountText {
@@ -130,6 +132,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 #jungalText {
@@ -168,6 +171,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 #roadText {
@@ -206,6 +210,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 #OceanText {
@@ -244,6 +249,7 @@ marquee {
     height: 250px;
     border-radius: 15px;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 #oldText {
@@ -295,6 +301,7 @@ marquee {
     height: 350px;
     border-radius: 35px;
     padding: 20px;
+    object-fit: cover;
 }
 
 
@@ -303,6 +310,7 @@ marquee {
     height: 350px;
     border-radius: 35px;
     padding: 20px;
+    object-fit: cover;
 }
 
 #centerText {
@@ -356,9 +364,10 @@ marquee {
 #soloText {
     position: absolute;
     top: 50%;
-    left: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
@@ -388,9 +397,10 @@ marquee {
 #mountText {
     position: absolute;
     top: 50%;
-    left: 23%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
@@ -420,9 +430,10 @@ marquee {
 #jungalText {
     position: absolute;
     top: 50%;
-    left: 23%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
@@ -452,9 +463,10 @@ marquee {
 #roadText {
     position: absolute;
     top: 50%;
-    left: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
@@ -484,9 +496,10 @@ marquee {
 #OceanText {
     position: absolute;
     top: 50%;
-    left: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
@@ -516,9 +529,9 @@ marquee {
 #oldText {
     position: absolute;
     top: 50%;
-    left: 20%; 
-    color: white;
-    font-size: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
     font-weight: bold;
     font-family: PoppinsLight;
 }
