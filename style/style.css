@@ -1,0 +1,191 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title-container {
+    grid-area: title;
+}
+
+.navMenu {
+    grid-area: navMenu;
+}
+
+.header-container {
+    background-color: #26335D;
+    padding-bottom: 190px;
+}
+
+.login-container {
+    grid-area: login;
+}
+
+.firstHeader-container {
+    display: grid;
+    grid-template-areas:"title navMenu login";
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 5px;
+    color: #FFFF;
+    font-family: poppinsBold;
+}
+
+.title-container h1 {
+    float: right;
+    margin-right: 55px;
+    color: #FFFF;
+    font-family: poppinsBold;
+}
+
+#loginBut {
+    padding: 15px 16px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #26335D;
+    color: #FFF;
+    font-family: poppinsBold;
+}
+
+#joinBut {
+    padding: 15px 35px 15px 25px; 
+    margin-left: 20px;
+    color: #FFF;
+    background-color: #1BC768;
+    outline: none;
+    border-style: none;
+    background-image: url(/photo/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 78px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: poppinsBold;
+}
+
+.headerText {
+    grid-area: text;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerPhotos {
+    grid-area: photo;
+    position: relative;
+}
+
+.secondHeader-container {
+    display: grid;
+    grid-template-areas:"text photo";
+    align-items: center;
+    margin-top: 150px;
+}
+
+#doctorStyle {
+    max-width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    left: 5%;
+}
+
+#clinicPhoto {
+    max-width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+}
+
+.greenText-container h3 {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    margin-left: 25%;
+    color: #1BC768;
+    font-family: poppinsBold;
+}
+
+.bigText-container h1 {
+    width: 60%;
+    text-align: left;
+    font-size: 55px;
+    padding: 20px;
+    margin-left: 25%;
+    color: #FFFF;
+    font-family: poppinsBold;
+    letter-spacing: 1.5px;
+}
+
+.p-container p {
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 25%;
+    color: #FFFF;
+    font-family: poppins;
+}
+
+.headerCenterBut  {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    margin-left: 25%;
+}
+
+#firstBut {
+    font-size: 15px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #1BC768;
+    border-style: none;
+    cursor: pointer;
+    font-family: poppinsBold;
+}
+
+#secondBut {
+    font-size: 15px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #1BC768;
+    border: 1px solid #1BC768;
+    background-color: #26335D;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: poppinsBold;
+}
+

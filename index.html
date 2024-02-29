@@ -3,130 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/mainHome.css">
-    <title>World Tour</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <div>
-                <a href="javascript:void(0);" class="menuIcon" onclick="displayMenu()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <div class="title-container">
-            <h1 class="titleStyle">World<span>Tour</span></h1>
-            </div>
-                <div class="navLinks">
-                    <a href="./index.html">Home</a>
-                    <a href="#">Tour</a>
-                    <a href="#">Sale</a>
-                    <a href="#">Contact</a>
-                    <a href="#">About us</a>
+
+            <div class="firstHeader-container">
+                <div class="title-container">
+                    <h1>MedicalBetter</h1>
                 </div>
-            <div class="search-container">
-                <input id="searchStyle" type="search" placeholder="Search your option">
+
+                <ul class="navMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="login-container">
+                        <button id="loginBut">Login</button>
+                        <button id="joinBut">Join us</button>
+                </div>
             </div>
-            <div class="socMedia-container">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
+
+            <div class="secondHeader-container">
+                <div class="headerText">
+                    <div class="greenText-container">
+                        <h3>For Better Future</h3>
+                    </div>
+
+                    <div class="bigText-container">
+                        <h1>A Great Place To Receive Care</h1>
+                    </div>
+
+                    <div class="p-container">
+                        <p>We are always fully focused on helping your child and you</p>
+                    </div>
+
+                    <div class="headerCenterBut">
+                        <button id="firstBut">Get Quote Now</button>
+                        <button id="secondBut">Learn More</button>
+                    </div>
+                </div>
+
+
+                <div class="headerPhotos">
+                    <img id="clinicPhoto" src="./photo/clinic.jfif" alt="Image">
+                    <img id="doctorStyle" src="./photo/doctor-man.jfif" alt="Image">
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <marquee class="runningText" direction="left" scrollamount="10">
-            <p class="marqueeText">Follow us on social networks</p>
-        </marquee>
 
-        <div class="categoryText">
-            <h2 id="categoryText">Choose A Category</h2>
-        </div>
-
-      <div class="categoryTour">
-        
-            <div class="categoryPhoto-container">
-                <div class="solo-container">
-                        <a href="#">
-                            <img class="soloTravel" src="./images/soloTravel.jpg" alt="Image">
-                            <p id="soloText">Solo Travel</p>
-                        </a>
-                </div>
-                <div class="mount-container">
-                    <a href="#">
-                        <img class="mountTravel" src="./images/mountTravel.jpg" alt="Image">
-                        <p id="mountText">Mount Travel</p>
-                    </a>
-                </div>
-                <div class="jungal-container">
-                    <a href="#">
-                        <img class="jungalTravel" src="./images/jungalTravel.jpg" alt="Image">
-                        <p id="jungalText">Jungal Travel</p>
-                    </a>
-                </div>
-                <div class="road-container">
-                    <a href="#">
-                        <img class="roadTravel" src="./images/roadTravel.jpg" alt="Image">
-                        <p id="roadText">Road Travel</p>
-                    </a>
-                </div>
-                <div class="Ocean-container">
-                    <a href="#">
-                        <img class="oceanTravel" src="./images/oceanTravel.webp" alt="Image">
-                        <p id="OceanText">Ocean Travel</p>
-                    </a>
-                </div>
-                <div class="old-container">
-                    <a href="#">
-                        <img class="oldCity" src="./images/oldCity.jpg" alt="Image">
-                        <p id="oldText">Old City Travel</p>
-                    </a>
-                </div>
-            </div>
-        
-      </div>
-
-      <marquee direction="right" scrollamount="4">
-        <div class="capital-container">
-            <img class="capital" src="./images/Rome.jpg" alt="Image">
-            <img class="capital" src="./images/London.jfif" alt="Image">
-            <img class="capital" src="./images/Paris.webp" alt="Image">
-            <img class="capital" src="./images/lisabon.jpg" alt="Image">
-            <img class="capital" src="./images/newyork.avif" alt="Image">
-            <img class="capital" src="./images/Tbilisi-1.jpg" alt="Image">
-            <img class="capital" src="./images/viena.webp" alt="Image">
-            <img class="capital" src="./images/zurich.jpg" alt="Image">
-            <img class="capital" src="./images/oslo.jpg" alt="Image">
-        </div>
-      </marquee>
-        <div class="text-container">
-
-        <p id="centerText">Travel with us</p>
-
-        </div>
-      <marquee  direction="left">
-        <div class="otherCity-container" scrollamount="4">
-            <img class="otherCity" src="./images/othercity/barelona.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/batumi.jpeg" alt="Image">
-            <img class="otherCity" src="./images/othercity/berlin.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/brusells.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/manchester.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/munich.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/stochkolm.jpg" alt="Image">
-            <img class="otherCity" src="./images/othercity/tokyo.avif" alt="Image">
-            <img class="otherCity" src="./images/othercity/zagreb.jpg" alt="Image">
-        </div>
-      </marquee>
     </main>
 
     <footer>
 
     </footer>
-    <script src="./script/header.js"></script>
 </body>
 </html>
