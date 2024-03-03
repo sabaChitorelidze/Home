@@ -8,6 +8,10 @@
     src: url(/fonts/Poppins-Medium.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .mainGreenText h3 {
     color: #1ca75b;
     padding-bottom: 0.5%;
@@ -40,3 +44,102 @@
 .two-container {
     margin-top: 10%;
 }
+
+.second-container {
+    display: grid;
+    grid-template-areas: "emergency cancer dental book";
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.emergency-container {
+    grid-area: emergency;
+    padding: 10% 10% 10%;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cancer-container {
+    grid-area: cancer;
+    padding: 10% 10% 10%;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dental-container {
+    grid-area: dental;
+    padding: 10% 10% 10%;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book-container {
+    grid-area: book;
+    padding: 10% 10% 10%;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heart-container i {
+    background-color: #F9FDFF;
+    font-size: 40px;
+    color: rgb(68, 0, 255);
+    padding: 20px;
+}
+
+.note-container i {
+    background-color: #DDEEFE;
+    font-size: 40px;
+    color: rgb(68, 0, 255);
+    padding: 20px;
+}
+
+.snake-container i {
+    background-color: #DDEEFE;
+    font-size: 40px;
+    color: rgb(68, 0, 255);
+    padding: 20px;
+}
+
+.bookicno-container i {
+    background-color: #DDEEFE;
+    font-size: 40px;
+    color: rgb(68, 0, 255);
+    padding: 20px;
+}
+
+
+
+.EmergencyText h3 {
+    font-size: 20px;
+    font-family: poppinsBold;
+    margin-top: 10%;
+}
+
+.cancerText h3 {
+    font-size: 20px;
+    font-family: poppinsBold;
+    margin-top: 10%;
+}
+
+.dentalText  h3 {
+    font-size: 20px;
+    font-family: poppinsBold;
+    margin-top: 10%;
+}
+
+.line {
+    background-color: red;
+    width: 30%;
+    height: 2px;
+    margin-top: 10%;
+}
+
+.gradual-container p {
+    color: rgb(143, 140, 140);
+    font-family: poppins;
+    width: 80%;
+    margin-top: 10%;
+}
+
