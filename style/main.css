@@ -51,6 +51,7 @@
     margin-top: 5%;
     width: 70%;
     margin-left: 20%;
+    padding-bottom: 5%;
 }
 
 .emergency-container {
@@ -58,13 +59,42 @@
     padding: 10% 10% 10%;
     width: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90%;
+    cursor: pointer;
+}
+
+.emergency-container:hover {
+    background-color:#1BC768;
+    color: #FFF;
+}
+.emergency-container:hover .line{
+    background-color: #FFF;
+    color: #FFF;
+}
+.emergency-container:hover .gradual-container p {
+    color: #FFF;
 }
 
 .cancer-container {
     grid-area: cancer;
     padding: 10% 10% 10%;
     width: 75%;
+    height: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+.cancer-container:hover {
+    background-color:#1BC768;
+    color: #FFF;
+}
+.cancer-container:hover .line{
+    background-color: #FFF;
+    color: #FFF;
+}
+.cancer-container:hover .gradual-container p {
+    color: #FFF;
 }
 
 .dental-container {
@@ -72,6 +102,20 @@
     padding: 10% 10% 10%;
     width: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90%;
+    cursor: pointer;
+}
+
+.dental-container:hover {
+    background-color:#1BC768;
+    color: #FFF;
+}
+.dental-container:hover .line{
+    background-color: #FFF;
+    color: #FFF;
+}
+.dental-container:hover .gradual-container p {
+    color: #FFF;
 }
 
 .book-container {
@@ -79,13 +123,29 @@
     padding: 10% 10% 10%;
     width: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90%;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+.book-container:hover {
+    background-color:#1BC768;
+    color: #FFF;
+}
+.book-container:hover .line{
+    background-color: #FFF;
+    color: #FFF;
+}
+.book-container:hover .gradual-container p {
+    color: #FFF;
 }
 
 .heart-container i {
-    background-color: #F9FDFF;
+    background-color: #DDEEFE;
     font-size: 40px;
     color: rgb(68, 0, 255);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .note-container i {
@@ -93,6 +153,7 @@
     font-size: 40px;
     color: rgb(68, 0, 255);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .snake-container i {
@@ -100,6 +161,7 @@
     font-size: 40px;
     color: rgb(68, 0, 255);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .bookicno-container i {
@@ -107,6 +169,7 @@
     font-size: 40px;
     color: rgb(68, 0, 255);
     padding: 20px;
+    border-radius: 10px;
 }
 
 
@@ -139,7 +202,7 @@
 .gradual-container p {
     color: rgb(143, 140, 140);
     font-family: poppins;
-    width: 80%;
+    width: 85%;
     margin-top: 10%;
 }
 
