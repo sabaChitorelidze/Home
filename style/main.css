@@ -1,0 +1,42 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+.mainGreenText h3 {
+    color: #1ca75b;
+    padding-bottom: 0.5%;
+    font-family: poppinsBold;
+}
+
+.problems-container p {
+    color: rgb(143, 140, 140);
+    padding-top: 1%;
+    width: 40%;
+    letter-spacing: 0.5px;    
+    font-family: poppins;
+    line-height: 50%;
+}
+
+.problems-container p:nth-child(2) {
+    padding-bottom: 1%;
+}
+
+
+.first-container {
+    margin-left: 20%;
+}
+
+.Appoinment-container h1 {
+    font-size: 50px;
+    font-family: poppinsBold;
+}
+
+.two-container {
+    margin-top: 10%;
+}
