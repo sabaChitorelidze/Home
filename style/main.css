@@ -61,6 +61,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 90%;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .emergency-container:hover {
@@ -83,6 +84,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 15%;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .cancer-container:hover {
@@ -104,6 +106,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 90%;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .dental-container:hover {
@@ -126,6 +129,7 @@
     height: 90%;
     margin-top: 15%;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .book-container:hover {
@@ -192,6 +196,12 @@
     margin-top: 10%;
 }
 
+.bookText h3 {
+    font-size: 20px;
+    font-family: poppinsBold;
+    margin-top: 10%;
+}
+
 .line {
     background-color: red;
     width: 30%;
@@ -204,5 +214,415 @@
     font-family: poppins;
     width: 85%;
     margin-top: 10%;
+}
+
+@media only screen and (min-width: 300px) and (max-width:700px) {
+    .mainGreenText h3 {
+        color: #1ca75b;
+        padding-bottom: 0.5%;
+        font-family: poppinsBold;
+        font-size: 16px;
+    }
+    
+    .problems-container p {
+        color: rgb(143, 140, 140);
+        padding-top: 1%;
+        width: 100%;
+        letter-spacing: 0.5px;    
+        font-family: poppins;
+        line-height: 100%;
+        font-size: 10px;
+    }
+    
+    .problems-container p:nth-child(2) {
+        padding-bottom: 1%;
+    }
+    
+    
+    .first-container {
+        margin-left: 10%;
+    }
+    
+    .Appoinment-container h1 {
+        font-size: 30px;
+        font-family: poppinsBold;
+    }
+    
+    .two-container {
+        margin-top: 10%;
+    }
+    
+    .second-container {
+        display: grid;
+        grid-template-areas: "emergency dental"
+        "cancer book";
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 7%;
+        padding-right: 8%;
+    }
+    
+    .emergency-container {
+        grid-area: emergency;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+    
+    .emergency-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .emergency-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .emergency-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .cancer-container {
+        grid-area: cancer;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+    
+    .cancer-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .cancer-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .cancer-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .dental-container {
+        grid-area: dental;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        margin-left: 10%;
+    }
+    
+    .dental-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .dental-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .dental-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .book-container {
+        grid-area: book;
+         padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        margin-left: 10%;
+    }
+    
+    .book-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .book-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .book-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .heart-container i {
+        background-color: #DDEEFE;
+        font-size: 20px;
+        color: rgb(68, 0, 255);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .note-container i {
+        background-color: #DDEEFE;
+        font-size: 20px;
+        color: rgb(68, 0, 255);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .snake-container i {
+        background-color: #DDEEFE;
+        font-size: 20px;
+        color: rgb(68, 0, 255);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .bookicno-container i {
+        background-color: #DDEEFE;
+        font-size: 20px;
+        color: rgb(68, 0, 255);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .EmergencyText h3 {
+        font-size: 12px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .cancerText h3 {
+        font-size: 12px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .dentalText  h3 {
+        font-size: 12px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+
+    .bookText h3 {
+        font-size: 12px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .line {
+        background-color: red;
+        width: 30%;
+        height: 2px;
+        margin-top: 10%;
+    }
+    
+    .gradual-container p {
+        color: rgb(143, 140, 140);
+        font-family: poppins;
+        width: 100%;
+        margin-top: 10%;
+        font-size: 7px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width:1280px) {
+    .mainGreenText h3 {
+        color: #1ca75b;
+        padding-bottom: 0.5%;
+        font-family: poppinsBold;
+        font-size: 20px;
+    }
+    
+    .problems-container p {
+        color: rgb(143, 140, 140);
+        padding-top: 1%;
+        width: 100%;
+        letter-spacing: 0.5px;    
+        font-family: poppins;
+        line-height: 100%;
+        font-size: 15px;
+    }
+    
+    .problems-container p:nth-child(2) {
+        padding-bottom: 1%;
+    }
+    
+    
+    .first-container {
+        margin-left: 10%;
+    }
+    
+    .Appoinment-container h1 {
+        font-size: 35px;
+        font-family: poppinsBold;
+    }
+    
+    .two-container {
+        margin-top: 10%;
+    }
+    
+    .second-container {
+        display: grid;
+        grid-template-areas: "emergency dental"
+        "cancer book";
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 7%;
+        padding-right: 8%;
+    }
+    
+    .emergency-container {
+        grid-area: emergency;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+    
+    .emergency-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .emergency-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .emergency-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .cancer-container {
+        grid-area: cancer;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+    
+    .cancer-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .cancer-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .cancer-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .dental-container {
+        grid-area: dental;
+        padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        margin-left: 10%;
+    }
+    
+    .dental-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .dental-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .dental-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .book-container {
+        grid-area: book;
+         padding: 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        margin-left: 10%;
+    }
+    
+    .book-container:hover {
+        background-color:#1BC768;
+        color: #FFF;
+    }
+    .book-container:hover .line{
+        background-color: #FFF;
+        color: #FFF;
+    }
+    .book-container:hover .gradual-container p {
+        color: #FFF;
+    }
+    
+    .heart-container i {
+        background-color: #DDEEFE;
+        font-size: 30px;
+        color: rgb(68, 0, 255);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .note-container i {
+        background-color: #DDEEFE;
+        font-size: 30px;
+        color: rgb(68, 0, 255);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .snake-container i {
+        background-color: #DDEEFE;
+        font-size: 30px;
+        color: rgb(68, 0, 255);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .bookicno-container i {
+        background-color: #DDEEFE;
+        font-size: 30px;
+        color: rgb(68, 0, 255);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .EmergencyText h3 {
+        font-size: 15px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .cancerText h3 {
+        font-size: 15px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .dentalText  h3 {
+        font-size: 15px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+
+    .bookText h3 {
+        font-size: 15px;
+        font-family: poppinsBold;
+        margin-top: 10%;
+    }
+    
+    .line {
+        background-color: red;
+        width: 30%;
+        height: 2px;
+        margin-top: 10%;
+    }
+    
+    .gradual-container p {
+        color: rgb(143, 140, 140);
+        font-family: poppins;
+        width: 100%;
+        margin-top: 10%;
+        font-size: 12px;
+    }
 }
 
