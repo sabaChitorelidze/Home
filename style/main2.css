@@ -1,0 +1,620 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+.greenDoctorProblems {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.mainGreenText2 h3 {
+    color: #1ca75b;
+    padding-bottom: 0.5%;
+    font-family: poppinsBold;
+}
+
+
+.doctorsText-container h1{
+    font-size: 50px;
+    font-family: poppinsBold;
+}
+
+.problems-container2 p {
+    color: rgb(143, 140, 140);
+    padding-top: 1%;
+    width: 40%;
+    letter-spacing: 0.5px;    
+    font-family: poppins;
+    line-height: 50%;
+}
+
+.problems-container2 p:nth-child(2) {
+    padding-bottom: 1%;
+}
+
+.fourPhoto-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10%;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.doctor-woman {
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+}
+
+.sunglass-woman {
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+}
+
+.blue-woman {
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+}
+
+.three-woman {
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+}
+
+#doctorWoman {
+    width: 238px;
+    height: 250px;
+    object-fit: cover;
+    object-position: -200px;
+    border-radius: 2px;
+}
+
+
+#sunglassWoman {
+    width: 241px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2px; 
+}
+
+#blueWoman {
+    width: 238px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+#threeWoman {
+    width: 240px;
+    height: 250px;
+    object-fit: cover;
+    object-position: -110px;
+    border-radius: 2px;
+}
+
+#saleText {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 15px;
+    background-color: #E74040;
+    font-family: poppins;
+    color: #FFFF;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.doctor-woman i:nth-child(3) {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.doctor-woman i:nth-child(3):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.doctor-woman i:nth-child(4) {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.doctor-woman i:nth-child(4):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.doctor-woman i:nth-child(5) {
+    position: absolute;
+    bottom: 20px;
+    left: 51%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.doctor-woman i:nth-child(5):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.doctorWomanText-container {
+    position: relative;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+
+.doctorWomanText-container h5 {
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+}
+
+.doctorWomanText-container p:nth-child(2) {
+    font-weight: bold;
+    width: 60%;
+    font-family: poppinsBold;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.doctorWomanText-container p:nth-child(3) {
+    width: 75%;
+    font-family: poppins;
+    font-size: 12px;
+    color: #737373;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.doctorWomanText-container i{
+    transform: rotate(90deg);
+}
+
+.doctorWomanText-container p:nth-child(4) {
+    margin-top: 4%;
+    font-weight: bold;
+    color: #737373;
+    margin-left: 10%;
+}
+
+.doctorWomanText-container button {
+    margin-top: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #1BC768;
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+}
+
+.doctorWomanText-container button:hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+/*sunglass*/
+
+
+.sunglass-woman i:nth-child(3) {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.sunglass-woman i:nth-child(3):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+
+.sunglass-woman i:nth-child(4) {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.sunglass-woman i:nth-child(4):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+
+.sunglass-woman i:nth-child(5) {
+    position: absolute;
+    bottom: 20px;
+    left: 51%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.sunglass-woman i:nth-child(5):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.sunglassText-container {
+    position: relative;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+
+
+.sunglassText-container h5 {
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+}
+
+
+.sunglassText-container p:nth-child(2) {
+    font-weight: bold;
+    width: 60%;
+    font-family: poppinsBold;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+
+.sunglassText-container p:nth-child(3) {
+    width: 75%;
+    font-family: poppins;
+    font-size: 12px;
+    color: #737373;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.sunglassText-container i{
+    transform: rotate(90deg);
+}
+
+
+.sunglassText-container p:nth-child(4) {
+    margin-top: 4%;
+    font-weight: bold;
+    color: #737373;
+    margin-left: 10%;
+}
+
+.sunglassText-container button {
+    margin-top: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #1BC768;
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+}
+
+
+.sunglassText-container button:hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+/*bluewoman*/
+
+
+.blue-woman i:nth-child(3) {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.blue-woman i:nth-child(3):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+
+.blue-woman i:nth-child(4) {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.blue-woman i:nth-child(4):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+
+.blue-woman i:nth-child(5) {
+    position: absolute;
+    bottom: 20px;
+    left: 51%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.blue-woman i:nth-child(5):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.blueWomanText-container {
+    position: relative;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+
+
+.blueWomanText-container h5 {
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+}
+
+
+.blueWomanText-container p:nth-child(2) {
+    font-weight: bold;
+    width: 60%;
+    font-family: poppinsBold;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+
+.blueWomanText-container p:nth-child(3) {
+    width: 75%;
+    font-family: poppins;
+    font-size: 12px;
+    color: #737373;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.blueWomanText-container i{
+    transform: rotate(90deg);
+}
+
+
+.blueWomanText-container p:nth-child(4) {
+    margin-top: 4%;
+    font-weight: bold;
+    color: #737373;
+    margin-left: 10%;
+}
+
+.blueWomanText-container button {
+    margin-top: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #1BC768;
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+}
+
+.blueWomanText-container button:hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+/*threeWoman*/
+
+.three-woman i:nth-child(3) {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.three-woman i:nth-child(3):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.three-woman i:nth-child(4) {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.three-woman i:nth-child(4):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.three-woman i:nth-child(5) {
+    position: absolute;
+    bottom: 20px;
+    left: 51%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.three-woman i:nth-child(5):hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+.threeWomanText-container {
+    position: relative;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+
+.threeWomanText-container h5 {
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+}
+
+.threeWomanText-container p:nth-child(2) {
+    font-weight: bold;
+    width: 60%;
+    font-family: poppinsBold;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.threeWomanText-container p:nth-child(3) {
+    width: 75%;
+    font-family: poppins;
+    font-size: 12px;
+    color: #737373;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.threeWomanText-container i{
+    transform: rotate(90deg);
+}
+
+.threeWomanText-container p:nth-child(4) {
+    margin-top: 4%;
+    font-weight: bold;
+    color: #737373;
+    margin-left: 10%;
+}
+
+.threeWomanText-container button {
+    margin-top: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #1BC768;
+    color: #1BC768;
+    font-family: poppinsBold;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+}
+
+.threeWomanText-container button:hover {
+    background-color: #1BC768;
+    color: #FFFFFF;
+}
+
+#price {
+    color: #BDBDBD;
+    margin-top: 5%;
+    font-family: poppinsBold;
+    margin-left: 10%;
+}
+
+#price :last-child {
+    color: #5D5DF9;
+}
+
+.star {
+    position: absolute;
+    top: -5px;
+    right: 20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #26335D;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-size: 10px;
+}
+
+.star i {
+    color: #FFCE31;
+    transform: rotate(0deg);
+}
+.star p {
+    color: #FFFFFF;
+}
