@@ -5,6 +5,8 @@
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: #202124;
 }
 
@@ -27,6 +29,7 @@ li a {
     display: flex;
     font-family: sans-serif;
     color: #fff;
+    font-size: 13px;
 }
 
 li a:hover {
@@ -74,5 +77,95 @@ li button:hover {
 
 
 .header-container {
-    float: right;
+    display: flex;
+    justify-content: right;
 }
+
+.search-photo {
+    display: grid;
+    justify-content: center;
+    margin-top: 8%;
+    grid-template-areas: "photo"
+    "search";
+}
+
+.searchPhoto {
+    position: relative;
+    padding-right: 50px;
+    padding-left: 35px;
+    grid-area: photo;
+}
+
+.searchPhoto i {
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    bottom: 20px;
+    background-color: #27292b;
+    color: #fff;
+    padding: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.searchPhoto i:hover {
+    background-color: #383a3f;
+}
+
+.searchPhoto i:active {
+    background-color: #494b52;
+}
+
+.search-container {
+    position: relative;
+    grid-area: search;
+    margin-top: 5%;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+}
+
+.micro {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    right: 40px;
+    cursor: pointer;
+}
+
+.imageSearch {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    right: 10px;
+    cursor: pointer;
+}
+
+.search-container input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid #707480;
+    color: #f1e6e6;
+    outline: none;
+    background-color: #202124;
+    background-image: url(/photo/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    font-size: 18px;
+    background-size: 20px;
+    padding-left: 65px;
+}
+
+.search-container input:hover {
+    border-style: none;
+    background-color:#37373a;
+}
+
+.search-container input:focus {
+    border-style: none;
+    background-color:#37373a;
+}
+
