@@ -151,12 +151,13 @@ li button:hover {
     color: #f1e6e6;
     outline: none;
     background-color: #202124;
-    background-image: url(/photo/magnifying-glass-solid.svg);
+    background-image: url(/photo/loop-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: 10px;
     font-size: 18px;
     background-size: 20px;
     padding-left: 65px;
+    padding-right: 95px;
 }
 
 .search-container input:hover {
